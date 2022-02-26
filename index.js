@@ -1,9 +1,13 @@
 // TODO: Include packages needed for this application
+
+// these are all teh packages needed for the application to run
 const inquire = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
+
+// this is the list of questions for the user to answer, resulting in the data used for the readme file
 const questions = () => {
   return inquire.prompt([
     {
@@ -117,7 +121,7 @@ const questions = () => {
     },
     {
         type: "checkbox",
-        name: "projectLicense",
+        name: "license",
         message: "Select the 'Licenses' that need to be included with this project. (Select all that apply)",
         choices: [
             "MIT",
@@ -128,6 +132,8 @@ const questions = () => {
   ]);
 };
 // TODO: Create a function to write README file
+
+// this function is taking the data from the user input and using it to create a readme file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) throw err;
@@ -136,6 +142,8 @@ function writeToFile(fileName, data) {
 };
 
 // TODO: Create a function to initialize app
+
+// this function is what initializes the app to run in order to ask the user the array of questions
 function init() {
     questions().then((answers) => {
         console.log(answers.project)
