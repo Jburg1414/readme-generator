@@ -83,7 +83,7 @@ const questions = () => {
     {
       type: "input",
       name: "usage",
-      message: "What is the reason for this project? Enter how and why to use this project. (Required)",
+      message: "Enter how and why to use this project. (Required)",
       validate: (usage) => {
           if (usage) {
               return true;
