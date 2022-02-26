@@ -57,7 +57,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     questions().then((answers) => {
-        console.log(answers)
+        console.log(answers.project)
       let data = generateMarkdown(answers);
       writeToFile("./dist/Readme.md", data);
     });
