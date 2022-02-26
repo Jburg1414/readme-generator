@@ -64,6 +64,7 @@ ${data.installationInstructions}
 
 ## Usage
 ${data.usage}
+${data.screenshot}
 
 ## Credits
 ${data.contributor}

@@ -95,6 +95,19 @@ const questions = () => {
     },
     {
         type: "input",
+        name: "screenshot",
+        message: "Enter the relative path to the screenshot of this project. (Required)",
+        validate: (screenshot) => {
+            if (screenshot) {
+                return true;
+            } else {
+                console.log("Please enter the relative path to your screenshot!")
+                return false;
+            }
+        }
+    },
+    {
+        type: "input",
         name: "contributor",
         message: "Please enter all the contributors for this project. (Required)",
         validate: (contributor) => {
