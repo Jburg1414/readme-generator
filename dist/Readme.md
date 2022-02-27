@@ -18,9 +18,8 @@ npm i
 
 ## Usage
 Download the zip file of this Repo, navigate to the downloaded file location in command line, download inquirer, run node index
+none
 
-## Screenshot or Video
-[Video-Walkthrough](https://youtu.be/bACt3DNUX8E)
 ## Credits
 Jace Burgess, Bobbi Tanarki (tutor)
 
