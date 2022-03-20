@@ -1,8 +1,7 @@
-# Professional Readme Generator
-![MIT](https://img.shields.io/badge/license-MIT-brightgreen)
+# Note Taker
 
 ## Description
-This node.js app will allow users to create a professional readme file by just answering a few questions about their project.
+This app will allow a user to add and delete notes that are saved on a server. This was created with express.js, node.js, and uuid which is used to give each note a unique id. 
 
 ## Table of Contents
 
@@ -14,18 +13,17 @@ This node.js app will allow users to create a professional readme file by just a
 - [Questions](#questions)
 
 ## Installation
-npm i
+npm i, npm i express, npm i uuid
 
 ## Usage
-Download the zip file of this Repo, navigate to the downloaded file location in command line, download inquirer, run node index
+The user will have to download the files for this project from my repo and install the necessary npm packages fo this app. Once all the packages are installed then start the server by running npm start, then go to your local web browser and enter localhost:3001 in the search bar. At that point the application will be running and you can use it as desired.  
 none
 
 ## Credits
-Jace Burgess, Bobbi Tanarki (tutor)
+Jace Burgess, Bobbi Tarkany (tutor)
 
 ## License
-A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
-[MIT](https://opensource.org/licenses/MIT)
+
 
 ## Tests
 npm run test
