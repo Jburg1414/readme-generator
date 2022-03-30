@@ -1,7 +1,8 @@
-# Note Taker
+# E-Commerce Back End
+![MIT](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## Description
-This app will allow a user to add and delete notes that are saved on a server. This was created with express.js, node.js, and uuid which is used to give each note a unique id. 
+This backend project is for an E-Commerce website using the newest technology and practices available. This application was built with Javascript, Node.js, and MySQL.
 
 ## Table of Contents
 
@@ -13,20 +14,22 @@ This app will allow a user to add and delete notes that are saved on a server. T
 - [Questions](#questions)
 
 ## Installation
-npm i, npm i express, npm i uuid
+npm i
 
 ## Usage
-The user will have to download the files for this project from my repo and install the necessary npm packages fo this app. Once all the packages are installed then start the server by running npm start, then go to your local web browser and enter localhost:3001 in the search bar. At that point the application will be running and you can use it as desired.  
+Clone or download the zip of my repo. Navigate to the file and in the terminal run npm i. Log into mysql and source db/schema.sql then exit out of mysql. In terminal log npm run seed, then log npm start. At that point the terminal is started so you can use a software like Insomnia to check the local host and run the application. 
+
 none
 
 ## Credits
-Jace Burgess, Bobbi Tarkany (tutor)
+Jace Burgess, Bobbi Tarkany (Tutor)
 
 ## License
-
+[MIT](https://opensource.org/licenses/MIT)
+A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
 ## Tests
-npm run test
+No test instructions for this application.
 
 ## Questions
 - GitHub Account: Jburg1414
